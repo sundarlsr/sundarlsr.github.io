@@ -149,6 +149,7 @@
     <ClInclude Include="FebonacciSeries.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="FebonacciSeries.cpp" />
     <ClCompile Include="LinkedListSource.cpp" />
     <ClCompile Include="StackProgram.cpp" />
