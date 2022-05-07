@@ -1,8 +1,25 @@
-# sundarlsr.github.io
+# sundarlsr.github.io - This repository has been created for assigment 4.
 
-This repository has been created for assigment 4.
+Project: Common Algorithm Development.
+    	This project is developed to support the Standard Template Library Algorithms provides general-purpose, templatized classes and functions 
+that implement many popular and commonly used algorithms and  data structures like (Vectors, Lists, Queues, Map, Multimap, Set, Stack, Counting Algorithm, 
+Transform Algorithm, stacks and Templates).
 
-This repository contains code for some common important algorithms listed below - 
+The Common algorithm divides the Standard Template Library programs into two main items: containers and algorithms. 
+
+Containers:  Containers are objects that hold other objects.
+•	Vector 
+•	List 
+•	Map	
+
+Algorithms: Algorithms act on the contents of containers. Many algorithms operate on a range of elements within a container.
+•	Sorting, 
+•	Searching, 
+•	Transforming 
+
+These algorithms will be improted as a library fucntion to the projects and the project will utilize the fucntions required for the implementation.
+
+This project contains code for some common important algorithms listed below - 
 
 1 - Binary Search - Binary Search is a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(Log n). 
 
