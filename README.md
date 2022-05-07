@@ -7,4 +7,6 @@ Created this project for Assignment4
 
 2. New branch for Assignment 4 created.
 
-This repository contains source code in C++ language for some important programs like binary search, fibonacci serices, linked list and stack program.
+This repository contains source code for some important programs like binary search, fibonacci serices, linked list and stack program. 
+
+The source code is written in C++ language.
