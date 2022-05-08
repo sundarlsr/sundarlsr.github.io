@@ -33,12 +33,4 @@ The source code for all the above mentioned algorithms are available in C++ lang
 
 The repository also contains the needed header file(S) for these algorithms.
 
-Please find below the members of the project team - 
-
-- Dipesh Kumar Sahu - 2021MT93298
-- Prashant Kumar Thakur - 2021MT93350
-- Singam Aishwarya - 2021MT93220
-- Sundar Raj L - 2021MT93180
-- Vaishnavi V - 2021MT93064
-
 The editor Visual Studio code was used for this project.
