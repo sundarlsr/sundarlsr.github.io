@@ -29,16 +29,14 @@ This project contains code for some common important algorithms listed below -
 
 4 - Stack Program - Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
 
+5 - Map Algorithm - A program that looks for the word entered by the user in a predefined dictionary.
+
+6 - Transform Algorithm - A program that transforms a list into it's squared counterparts using the transform function.
+
+7 - Reverse Integer - A program the reverses the integer entered by the user.
+
 The source code for all the above mentioned algorithms are available in C++ language in this repository.
 
 The repository also contains the needed header file(S) for these algorithms.
-
-Please find below the members of the project team - 
-
-- Dipesh Kumar Sahu - 2021MT93298
-- Prashant Kumar Thakur - 2021MT93350
-- Singam Aishwarya - 2021MT93220
-- Sundar Raj L - 2021MT93180
-- Vaishnavi V - 2021MT93064
 
 The editor Visual Studio code was used for this project.
