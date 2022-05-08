@@ -1,4 +1,4 @@
-# sundarlsr.github.io - This repository has been created for assigment 4.
+# sundarlsr.github.io - This repository has been created for Assigment 4.
 
 Project: Common Algorithm Development.
     	This project is developed to support the Standard Template Library Algorithms provides general-purpose, templatized classes and functions 
@@ -17,7 +17,7 @@ Algorithms: Algorithms act on the contents of containers. Many algorithms operat
 •	Searching, 
 •	Transforming 
 
-These algorithms will be improted as a library fucntion to the projects and the project will utilize the fucntions required for the implementation.
+These algorithms will be improted as a library and dll fucntions to the projects and the project will utilize the fucntions required for the implementation.
 
 This project contains code for some common important algorithms listed below - 
 
