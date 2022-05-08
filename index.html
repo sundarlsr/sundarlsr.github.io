@@ -1,44 +1,127 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Common Algorithms</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+  
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
 }
 
-.pill-nav a {
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
   display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  font-size: 17px;
-  border-radius: 5px;
-}
-
-.pill-nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.pill-nav a.active {
-  background-color: dodgerblue;
+  padding: 8px;
   color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
 }
+
+.button:hover {
+  background-color: #555;
+}
+  
 </style>
 </head>
 <body>
 
-<h2>Resume of All Group Members</h2>
-
-<div class="pill-nav">
-  <a class="active" href="#home">Dipesh Kumar Sahu - 2021MT93298</a> <br>
-  <a href="#contact">Prashant Kumar Thakur - 2021MT93350</a> <br>
-  <a href="aishwarya.html">Singam Aishwarya - 2021MT93220</a><br>
-  <a href="sundar.html">Sundar Raj L- 2021MT93180</a><br>
-  <a href="#about">Vaishnavi V- 2021MT93064 </a>
+<div class="about-section">
+  <h1>Assignment 4</h1>
+  <p>An open source repository that contains C++ implementation of commonly used algorithms in the programming world</p>
 </div>
 
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2 class="title">Vaishnavi V</h2>
+        <p>Software Engineer</p>
+        <p>2021mt93064@wilp-bits.pilani.ac.in</p>
+        <p><a href="vaishnavi.html">
+          <button class="button">Know More</button>
+        </a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2 class="title">Aishwarya</h2>
+        <p>Please add</p>
+        <p>Please add</p>
+        <p><a><href="aishwarya.html"><button class="button">Know more</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2 class="title">Sundar</h2>
+        <p>Please add</p>
+        <p>Please add</p>
+        <p><a><href="sundar.html"><button class="button">Know more</button></a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2 class="title">Dipesh</h2>
+        <p>Please add</p>
+        <p>Please add</p>
+        <p><button class="button">Know more</button></p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  
 </body>
 </html>
