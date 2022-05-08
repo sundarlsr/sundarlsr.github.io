@@ -37,6 +37,8 @@ This project contains code for some common important algorithms listed below -
 
 The source code for all the above mentioned algorithms are available in C++ language in this repository.
 
+This repository also contains the resume profile pages of all group members added in index.html 
+
 The repository also contains the needed header file(S) for these algorithms.
 
 The editor Visual Studio code was used for this project.
