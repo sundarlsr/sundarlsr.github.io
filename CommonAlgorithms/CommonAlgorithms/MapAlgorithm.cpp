@@ -16,7 +16,7 @@ bool operator<(word a, word b)
 	return strcmp(a.get(), b.get()) < 0;
 }
 class meaning {
-	char str[80];
+	char str[100];
 	public:
 	meaning() { strcmp(str, ""); }
 	meaning(char *s) { strcpy(str, s); }
@@ -35,7 +35,7 @@ int main()
 	dictionary.insert(pair<word, meaning>(word("STL"),
 	meaning("Standard Template Library")));
 	// given a word, find meaning
-	char str[80];
+	char str[100];
 	cout << "Enter word: ";
 	cin >> str;
 	map<word, meaning>::iterator p;
