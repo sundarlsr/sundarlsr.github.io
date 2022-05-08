@@ -15,7 +15,7 @@ int main()
 	int i;
 	// put values into list
 	for(i=0; i<10; i++) xl.push_back(i);
-		cout << "Original contents of xl: ";
+		cout << "Original contents of xl:: ";
 		list<int>::iterator p = xl.begin();
 		
 	while(p != xl.end()) {
