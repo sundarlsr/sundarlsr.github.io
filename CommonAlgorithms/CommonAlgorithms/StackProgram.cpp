@@ -17,7 +17,7 @@ public:
 	}
 	void push(int data)
 	{
-		cout << "top value" << top << endl;
+		cout << "Stack :: top value" << top << endl;
 
 		if ((top + 1) >= Max)
 		{
@@ -46,7 +46,7 @@ public:
 
 	void display()
 	{
-		cout << "top value" << top << endl;
+		cout << "Stack :: top value" << top << endl;
 
 		for (int i = 0; i <= top; i++)
 		{
@@ -72,8 +72,10 @@ int main()
 	obj.push(48);
 	obj.push(50);
 	obj.push(497);
+	obj.push(15);
 
 	obj.display();
+	obj.pop();
 	obj.pop();
 	obj.pop();
 	obj.pop();
